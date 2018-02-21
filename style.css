@@ -1,0 +1,110 @@
+html {
+    font-size: 16px;
+    text-transform: lowercase;
+}
+
+body {
+    background: url('assets/background.jpg') no-repeat center center fixed;
+    background-size: cover;
+    background-attachment: fixed;
+    background-color: rgba(40, 40, 40, 0.2
+    );
+    background-blend-mode: soft-light;
+}
+
+.box {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 500px;
+    padding: 20px;
+    text-align: center;
+
+    background-color: rgba(10, 10, 10, 0.7);
+    font-family: 'Actor', sans-serif;
+    color: white;
+    box-shadow: 0 0px 50px 10px rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+    font-weight: lighter;
+}
+
+.box h1 {
+    font-size: 4rem;
+    margin-bottom: 0px;
+}
+
+.box h2 {
+    font-size: 1rem;
+    letter-spacing: 0.1rem;
+}
+
+.box h5 {
+    font-size: 0.8rem;
+    font-weight: lighter;
+    letter-spacing: 0.55rem;
+    margin-top: 10px;
+}
+
+.box h5 svg {
+    font-size: 1rem;
+    margin-right: 15px;
+}
+
+.box p {
+    padding: 10px;
+}
+
+
+#photo {
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;    
+    top: -60px;
+  
+}
+
+#photo img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%; 
+    box-shadow: 0 0px 8px 5px rgba(0, 0, 0, 0.3);
+}
+
+
+ul {
+    display: inline;
+    text-align: justify;
+    padding: 0px;
+}
+
+li {
+    display: inline-block;
+    text-align: center;
+    min-width: 30px;
+    height: 40px;
+    margin: 5px;
+    padding: 8px 11px 3px 11px;
+    font-size: 2em;
+    transition: background-color 0.7s;
+    border-radius: 50%;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a:visited {
+    color: white;
+}
+
+li:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+.grayed-out {
+    color: gray;
+}
