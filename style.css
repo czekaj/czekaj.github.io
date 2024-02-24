@@ -1,14 +1,14 @@
 html {
     font-size: 16px;
     text-transform: lowercase;
+    background-color: inherit !important;
 }
 
 body {
-    background: url('assets/background.jpg') no-repeat center center;
+    background: url('assets/bg-vegas.jpg') no-repeat center bottom;
     background-size: cover;
     background-attachment: fixed;
-    background-color: rgba(40, 40, 40, 0.2
-    );
+    background-color: rgba(40, 40, 40, 0.2);
 }
 
 .box {
