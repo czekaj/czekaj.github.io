@@ -15,7 +15,7 @@ body {
     position: fixed;
     top: 50%;
     left: 50%;
-    min-width: 500px;
+    min-width: 400px;
     transform: translate(-50%, -50%);
     padding: 20px;
     text-align: center;
@@ -35,14 +35,21 @@ body {
 .box h2 {
     font-size: 1rem;
     letter-spacing: 0.1rem;
-    margin-bottom: 20px;
+    margin-bottom: 40px;
 }
 
 .box h5 {
     font-size: 0.8rem;
     font-weight: lighter;
-    letter-spacing: 0.55rem;
+    letter-spacing: 0.45rem;
+    margin-block-end: 0px;
+    margin-top: 5px;
+}
+
+.box div {
+    font-size: 1.2rem;
     margin-top: 10px;
+    margin-bottom: 0px;
 }
 
 .box h5 svg {
@@ -53,7 +60,6 @@ body {
 .box p {
     padding: 10px;
 }
-
 
 #photo {
     position: absolute;
@@ -74,9 +80,10 @@ body {
 
 
 ul {
-    display: inline;
+    display: inline-block;
     text-align: justify;
     padding: 0px;
+    margin-top: 20px;
 }
 
 li {
